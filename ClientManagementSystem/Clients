@@ -1,0 +1,10 @@
+-- clients_table.sql
+CREATE DATABASE clientdb;
+USE clientdb;
+
+CREATE TABLE clients (
+    client_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phone VARCHAR(15)
+);
